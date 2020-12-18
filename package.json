@@ -1,0 +1,44 @@
+{
+  "name": "es.uc3m.ubicomp.kahoota",
+  "displayName": "KahootA",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova-android": "^9.0.0",
+    "cordova-plugin-barcodescanner": "^0.7.4",
+    "cordova-plugin-compat": "^1.2.0",
+    "cordova-plugin-device-motion": "^2.0.1",
+    "cordova-plugin-speechrecognition": "^1.2.0",
+    "cordova-plugin-whitelist": "^1.3.4"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-buildinfo": {},
+      "cordova-universal-links-plugin": {},
+      "cordova-plugin-browsertab": {},
+      "cordova-plugin-inappbrowser": {},
+      "cordova-plugin-barcodescanner": {},
+      "cordova-plugin-speechrecognition": {},
+      "cordova-plugin-device-motion": {}
+    },
+    "platforms": [
+      "android"
+    ]
+  },
+  "dependencies": {
+    "@gedysintraware/cordova-universal-links-plugin": "git+https://github.com/GEDYSIntraWare/cordova-universal-links-plugin.git",
+    "cordova-plugin-browsertab": "0.2.0",
+    "cordova-plugin-buildinfo": "4.0.0",
+    "cordova-plugin-inappbrowser": "4.1.0"
+  }
+}
